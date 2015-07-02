@@ -319,6 +319,13 @@ footer .info2 .texto a:hover{
 	background-color: #38998d;
 	text-decoration: none;
 }
+.cont-infonosotros .info .redes{
+	margin-bottom: 30px;
+}
+.cont-infonosotros .info .redes .fb-like{
+	padding: 0;
+	margin: 0 0 20px 0;
+}
 .cont-infonosotros .noticias{
 	margin: 0 0 40px 0;
 }
