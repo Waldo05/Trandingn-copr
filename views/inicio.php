@@ -32,11 +32,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right menu">
-            <li><a class="activo" href="index.html">INICIO</a></li>
-            <li><a href="exportacion.html">EXPORTACIÓN</a></li>
-            <li><a href="distribuidora.html">DISTRIBUIDORA</a></li>
-            <li><a href="noticias.html">NOTICIAS</a></li>
-            <li><a href="contacto.html">CONTACTO</a>
+            <li><a class="activo" href="inicio">INICIO</a></li>
+            <li><a href="exportacion">EXPORTACIÓN</a></li>
+            <li><a href="distribuidora">DISTRIBUIDORA</a></li>
+            <li><a href="<?= $urlnoticias; ?>">NOTICIAS</a></li>
+            <li><a href="contacto">CONTACTO</a>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -51,7 +51,9 @@
         <img src="imagenes/slide/1.jpg" alt="descripcion">
         <div class="hidden-xs carousel-caption info">
           <h2>EXPORTACIONES EN TODO EL MUNDO</h2>
-          <p class="hidden-sm">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar.
+          <p class="hidden-sm">Lorem Ipsum es simplemente el
+            texto de relleno de las imprentas y archivos de texto.
+            Lorem Ipsum ha sido el texto de relleno estándar.
           </p>
         </div>
       </div>
@@ -60,7 +62,9 @@
         <img src="imagenes/slide/2.jpg" alt="descripcion">
         <div class="hidden-xs carousel-caption info">
           <h2>EXPORTACIONES EN TODO EL MUNDO</h2>
-          <p class="hidden-sm">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar.
+          <p class="hidden-sm">Lorem Ipsum es simplemente el texto
+            de relleno de las imprentas y archivos de texto. Lorem
+            Ipsum ha sido el texto de relleno estándar.
           </p>
         </div>
       </div>
@@ -69,7 +73,9 @@
         <img src="imagenes/slide/3.jpg" alt="descripcion">
         <div class="hidden-xs carousel-caption info">
           <h2>EXPORTACIONES EN TODO EL MUNDO</h2>
-          <p class="hidden-sm">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar.
+          <p class="hidden-sm">Lorem Ipsum es simplemente el texto
+            de relleno de las imprentas y archivos de texto.
+            Lorem Ipsum ha sido el texto de relleno estándar.
           </p>
         </div>
       </div>
@@ -90,11 +96,21 @@
       <h1>LAS MEJORES CARNES EXPORTADAS DESDE EL EXTRANJERO</h1>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 texto">
-      <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimenmentmente.
+      <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas
+        y archivos de texto. Lorem Ipsum ha sido el texto de relleno
+        estándar de las industrias desde el año 1500, cuando un impresor
+        (N. del T. persona que se dedica a la imprenta) desconocido usó
+        una galería de textos y los mezcló de tal manera que logró hacer
+        un libro de textos especimenmentmente.
       </p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 texto">
-      <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimenmentmente.
+      <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas
+        y archivos de texto. Lorem Ipsum ha sido el texto de relleno
+        estándar de las industrias desde el año 1500, cuando un impresor
+        (N. del T. persona que se dedica a la imprenta) desconocido usó
+        una galería de textos y los mezcló de tal manera que logró hacer
+        un libro de textos especimenmentmente.
       </p>
     </div>
   </article>
@@ -113,11 +129,14 @@
         </figure>
         <div class="info">
           <h2>Título de la exportación</h2>
-          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.
+          <p>Lorem Ipsum es simplemente el texto de relleno
+            de las imprentas y archivos de texto. Lorem Ipsum
+            ha sido el texto de relleno estándar de las
+            industrias desde el año 1500, cuando un impresor.
           </p>
         </div>
         <div class="btn">
-          <a href="exportacion.html">Ver más</a>
+          <a href="detalle.php">Ver más</a>
         </div>
       </div>
       <!-- autoincrementa -->
@@ -128,11 +147,15 @@
         </figure>
         <div class="info">
           <h2>Título de la exportación</h2>
-          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.
+          <p>Lorem Ipsum es simplemente el texto de relleno
+            de las imprentas y archivos de texto. Lorem
+            Ipsum ha sido el texto de relleno estándar
+            de las industrias desde el año 1500, cuando
+            un impresor.
           </p>
         </div>
         <div class="btn">
-          <a href="exportacion.html">Ver más</a>
+          <a href="detalle.php">Ver más</a>
         </div>
       </div>
       <!-- autoincrementa -->
@@ -143,11 +166,15 @@
         </figure>
         <div class="info">
           <h2>Título de la exportación</h2>
-          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.
+          <p>Lorem Ipsum es simplemente el texto de relleno
+            de las imprentas y archivos de texto. Lorem
+            Ipsum ha sido el texto de relleno estándar 
+          de las industrias desde el año 1500,
+          cuando un impresor.
           </p>
         </div>
         <div class="btn">
-          <a href="exportacion.html">Ver más</a>
+          <a href="detalle.php">Ver más</a>
         </div>
       </div>
       <!-- autoincrementa -->
@@ -157,7 +184,9 @@
   <div class="container-fluid fondo-img">
     <div class="container text-center cont-socios">
       <p class="titulo">EXPORTADORES ASOCIADOS</p>
-      <p class="texto">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar.
+      <p class="texto">Lorem Ipsum es simplemente el texto de
+        elleno de las imprentas y archivos de texto. Lorem
+        Ipsum ha sido el texto de relleno estándar.
       </p>
     </div>
   </div>

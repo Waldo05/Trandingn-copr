@@ -1,0 +1,70 @@
+.titulo{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 24px;
+	background-color: #f7f8f8;
+	border-radius: 5px;
+	padding: 8px 0;
+	text-align: center;
+	margin: auto;
+	color: #333;
+}
+.subtitulo{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	background-color: #f7f8f8;
+	border-radius: 5px;
+	padding: 8px 5px 8px 0;
+	text-align: right;
+	border: 1px solid #eeeded;
+	margin:0 auto;
+	color: #666666;
+}
+.boton-cambiar{
+	background-color: #33cc66;
+	color: #fff;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.texto{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	padding: 8px 5px 8px 0;
+	text-align: right;
+	margin: 0 auto 30px auto;
+	color: #999;
+}
+.volver{
+	background-color: #3366ff;
+	color: #fff;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+}
+.grabar{
+	background-color: #ff6600;
+	border: none;
+	color: #fff;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+}

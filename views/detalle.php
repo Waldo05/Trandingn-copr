@@ -32,11 +32,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right menu">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a class="activo" href="exportacion.html">EXPORTACIÓN</a></li>
-            <li><a href="distribuidora.html">DISTRIBUIDORA</a></li>
-            <li><a href="noticias.html">NOTICIAS</a></li>
-            <li><a href="contacto.html">CONTACTO</a>
+            <li><a href="inicio.php">INICIO</a></li>
+            <li><a class="activo" href="exportacion.php">EXPORTACIÓN</a></li>
+            <li><a href="distribuidora.php">DISTRIBUIDORA</a></li>
+            <li><a href="noticias.php">NOTICIAS</a></li>
+            <li><a href="contacto.php">CONTACTO</a>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -100,7 +100,7 @@
         </div>
 
         <div class="col-xs-12 volver">
-          <a href="exportacion.html">Volver</a>
+          <a href="exportacion.php">Volver</a>
         </div>
 
       </div>

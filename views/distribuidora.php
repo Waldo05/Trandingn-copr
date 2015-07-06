@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Contacto</title>
+  <title>Distribuidora</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -32,11 +32,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right menu">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="exportacion.html">EXPORTACIÓN</a></li>
-            <li><a href="distribuidora.html">DISTRIBUIDORA</a></li>
-            <li><a href="noticias.html">NOTICIAS</a></li>
-            <li><a class="activo" href="contacto.html">CONTACTO</a>
+            <li><a href="inicio.php">INICIO</a></li>
+            <li><a href="exportacion.php">EXPORTACIÓN</a></li>
+            <li><a class="activo" href="distribuidora.php">DISTRIBUIDORA</a></li>
+            <li><a href="noticias.php">NOTICIAS</a></li>
+            <li><a href="contacto.php">CONTACTO</a>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -50,7 +50,7 @@
       <div class="item active">
         <img src="imagenes/slide/1.jpg" alt="descripcion">
         <div class="hidden-xs carousel-caption info">
-          <h2>COMUNICATE CON NOSOTROS</h2>
+          <h2>NUESTRA DISTRIBUIDORA</h2>
         </div>
       </div>
     </div>
@@ -59,27 +59,36 @@
 
   <article class="container cont-bienvenidos">
     <div class="col-xs-12 titulo-secciones text-center">
-      <h3 class="titulo">NUESTRA UBICACIÓN</h3>
+      <h3 class="titulo">RECONOCIDA COMO UNA DE LAS EMPRESAS CON MAYOR EXPORTACIÓN EN EL MUNDO</h3>
       <p class="subtitulo">Lorem Ipsum es simplemente el texto de relleno.</p>
       <p class="texto">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera.
       </p>
       <div class="linea"></div>
     </div>
 
-    <div class="mapa col-xs-12 col-sm-6 col-md-4 col-lg-5">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.711393985207!2d-70.73234079999997!3d-34.17929579999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663434f79402789%3A0x6b2258731f4db8e5!2sCarr+del+Cobre+5%2C+Rancagua%2C+VI+Regi%C3%B3n!5e0!3m2!1ses!2scl!4v1435356583294" width="100%" height="480" frameborder="0" style="border:0" allowfullscreen>
-      </iframe>
+
+    <div class="cont-infonosotros col-xs-12">
+      <figure class="col-xs-12 col-sm-6 col-md-4 col-lg-5"> 
+        <img src="imagenes/nosotros/1.jpg">
+      </figure>
+      <div class="info col-xs-12 col-sm-6 col-md-8 col-lg-7">
+        <h3>Nuestra Sucursal</h3>
+
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y    archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de  las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",de Lorem Ipsum.
+        </p>
+      </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-7 cont-contacto">
-      <form class="col-xs-12" action="envio" method="post" onsubmit="MM_validateForm('Nombre','','R','Mail','','RisEmail','consulta','','R');return document.MM_returnValue;return document.MM_returnValue">
-        <input name="Nombre" type="text" class="col-xs-12 input" id="Nombre" placeholder="Nombre">
-        <input name="Telefono" type="text" class="col-xs-12 input" id="Telefono" placeholder="Telefono">
-        <input name="Mail" type="text" class="col-xs-12 input" id="Mail" placeholder="E-mail">
-        <textarea name="Mensaje" id="consulta" class="col-xs-12 mensaje" placeholder="Mensaje"></textarea>
-        <input class="enviar" name="Enviar" type="submit" value="Enviar">
+    <div class="cont-infonosotros col-xs-12">
+      <figure class="col-xs-12 col-sm-6 col-md-4 col-lg-5"> 
+        <img src="imagenes/nosotros/2.jpg">
+      </figure>
+      <div class="info col-xs-12 col-sm-6 col-md-8 col-lg-7">
+        <h3>Misión - Visión</h3>
 
-      </form>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y    archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de  las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",de Lorem Ipsum.
+        </p>
+      </div>
     </div>
     
     

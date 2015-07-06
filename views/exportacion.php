@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Distribuidora</title>
+  <title>Exportación</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -32,11 +32,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right menu">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="exportacion.html">EXPORTACIÓN</a></li>
-            <li><a class="activo" href="distribuidora.html">DISTRIBUIDORA</a></li>
-            <li><a href="noticias.html">NOTICIAS</a></li>
-            <li><a href="contacto.html">CONTACTO</a>
+            <li><a href="inicio.php">INICIO</a></li>
+            <li><a class="activo" href="exportacion.php">EXPORTACIÓN</a></li>
+            <li><a href="distribuidora.php">DISTRIBUIDORA</a></li>
+            <li><a href="noticias.php">NOTICIAS</a></li>
+            <li><a href="contacto.php">CONTACTO</a>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -50,7 +50,7 @@
       <div class="item active">
         <img src="imagenes/slide/1.jpg" alt="descripcion">
         <div class="hidden-xs carousel-caption info">
-          <h2>NUESTRA DISTRIBUIDORA</h2>
+          <h2>ALIANZA CON EXPORTADORES</h2>
         </div>
       </div>
     </div>
@@ -59,35 +59,136 @@
 
   <article class="container cont-bienvenidos">
     <div class="col-xs-12 titulo-secciones text-center">
-      <h3 class="titulo">RECONOCIDA COMO UNA DE LAS EMPRESAS CON MAYOR EXPORTACIÓN EN EL MUNDO</h3>
+      <h3 class="titulo">LO QUE EXPORTAMOS</h3>
       <p class="subtitulo">Lorem Ipsum es simplemente el texto de relleno.</p>
       <p class="texto">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera.
       </p>
       <div class="linea"></div>
     </div>
-
-
-    <div class="cont-infonosotros col-xs-12">
-      <figure class="col-xs-12 col-sm-6 col-md-4 col-lg-5"> 
-        <img src="imagenes/nosotros/1.jpg">
-      </figure>
-      <div class="info col-xs-12 col-sm-6 col-md-8 col-lg-7">
-        <h3>Nuestra Sucursal</h3>
-
-        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y    archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de  las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",de Lorem Ipsum.
-        </p>
+    <!-- autoincrementa -->
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/1.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
+    <!-- fin autoincrementa -->
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/2.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
       </div>
     </div>
 
-    <div class="cont-infonosotros col-xs-12">
-      <figure class="col-xs-12 col-sm-6 col-md-4 col-lg-5"> 
-        <img src="imagenes/nosotros/2.jpg">
-      </figure>
-      <div class="info col-xs-12 col-sm-6 col-md-8 col-lg-7">
-        <h3>Misión - Visión</h3>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/3.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
 
-        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y    archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de  las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",de Lorem Ipsum.
-        </p>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/1.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/2.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/3.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/1.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/2.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="grid">
+        <a href="detalle.php">
+          <figure class="effect-goliath">
+            <img src="imagenes/productos/3.jpg" alt="nombre">
+            <figcaption>
+              <h2>CARNE<span> VACUNO</span></h2>
+              <p>Exportada desde Estados Unidos</p>
+            </figcaption>     
+          </figure>
+        </a>
       </div>
     </div>
     

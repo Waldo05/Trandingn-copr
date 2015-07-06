@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Exportación</title>
+  <title>Noticias</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -32,11 +32,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right menu">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a class="activo" href="exportacion.html">EXPORTACIÓN</a></li>
-            <li><a href="distribuidora.html">DISTRIBUIDORA</a></li>
-            <li><a href="noticias.html">NOTICIAS</a></li>
-            <li><a href="contacto.html">CONTACTO</a>
+            <li><a href="inicio.php">INICIO</a></li>
+            <li><a href="exportacion.php">EXPORTACIÓN</a></li>
+            <li><a href="distribuidora.php">DISTRIBUIDORA</a></li>
+            <li><a class="activo" href="noticias.php">NOTICIAS</a></li>
+            <li><a href="contacto.php">CONTACTO</a>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -50,7 +50,7 @@
       <div class="item active">
         <img src="imagenes/slide/1.jpg" alt="descripcion">
         <div class="hidden-xs carousel-caption info">
-          <h2>ALIANZA CON EXPORTADORES</h2>
+          <h2>REVISA NUESTRAS NOTICIAS</h2>
         </div>
       </div>
     </div>
@@ -58,141 +58,60 @@
   </div>
 
   <article class="container cont-bienvenidos">
-    <div class="col-xs-12 titulo-secciones text-center">
-      <h3 class="titulo">LO QUE EXPORTAMOS</h3>
-      <p class="subtitulo">Lorem Ipsum es simplemente el texto de relleno.</p>
-      <p class="texto">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera.
-      </p>
-      <div class="linea"></div>
-    </div>
-    <!-- autoincrementa -->
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/1.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
-    <!-- fin autoincrementa -->
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/2.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
+    <div class="cont-infonosotros col-xs-12">
+      <div class="noticias col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <h3>NOTICIAS</h3>
+        <ul>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
+          <li>
+            <a href="#">Lorem Ipsum es simplemente el texto de relleno</a>
+          </li>
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/3.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
+        </ul>
       </div>
-    </div>
+      <div class="info col-xs-12 col-sm-6 col-md-8 col-lg-8">
+        <h3 class="noticia">Nuestra Sucursal</h3>
+        <p class="subtitulo">Lorem Ipsum es simplemente el texto de relleno.</p>
+        <div class="linea"></div>
+        <figure class="col-xs-12"> 
+          <img src="imagenes/novedades/1.jpg" alt="descripcion">
+        </figure>
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/1.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+          las industrias desde el año 1500, cuando un impresor (N. del T. persona
+          que se dedica a la imprenta) desconocido usó una galería de textos y
+          los mezcló de tal manera que logró hacer un libro de textos especimen. 
+          No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+          en documentos electrónicos, quedando esencialmente igual al original. Fue
+          popularizado en los 60s con la creación delas hojas "Letraset",de Lorem Ipsum.
+        </p>
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/2.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
+        <div class="redes">
+          <div class="col-xs-12 fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true">
+          </div>
+          
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+        </div>
       </div>
     </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/3.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/1.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/2.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="grid">
-        <a href="detalle-exportacion.html">
-          <figure class="effect-goliath">
-            <img src="imagenes/productos/3.jpg" alt="nombre">
-            <figcaption>
-              <h2>CARNE<span> VACUNO</span></h2>
-              <p>Exportada desde Estados Unidos</p>
-            </figcaption>     
-          </figure>
-        </a>
-      </div>
-    </div>
-    
-    
 
   </article>
 
@@ -260,6 +179,21 @@
       } );
   </script>
   <!-- fin script efecto hover en fotos -->
+  <!-- script de twitter -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+  <!-- fin script de twitter -->
+  <!-- script de facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- fin script de facebook -->
 
 
 </body>
